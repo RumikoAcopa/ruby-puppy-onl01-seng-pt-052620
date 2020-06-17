@@ -23,4 +23,4 @@ class Dog
     @@all.each do |dog|
       puts dog.name
   end
-end# Add your code here
+end
