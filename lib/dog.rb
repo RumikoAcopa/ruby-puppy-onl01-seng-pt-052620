@@ -4,20 +4,22 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
   end
 
   def self.all
     @@all
   end
 
+  def save
+    @@all << self
+  end
+  
   def self.clear_all
   end
 
   def self.print_all
   end
 
-  def save
-  end
+
 
 end# Add your code here
