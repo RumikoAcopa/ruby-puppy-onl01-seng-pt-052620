@@ -20,6 +20,6 @@ class Dog
   end
 
   def self.print_all
-    self.print_all 
+    self.print_all
   end
 end# Add your code here
